@@ -53,7 +53,7 @@ namespace WindowsFormsApp2
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
@@ -71,7 +71,7 @@ namespace WindowsFormsApp2
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -287,15 +287,15 @@ namespace WindowsFormsApp2
             this.textBox1.TabIndex = 22;
             this.textBox1.UseWaitCursor = true;
             // 
-            // pictureBox4
+            // pictureBox
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(403, 278);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 56);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 26;
-            this.pictureBox4.TabStop = false;
+            this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
+            this.pictureBox.Location = new System.Drawing.Point(403, 278);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(100, 56);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox.TabIndex = 26;
+            this.pictureBox.TabStop = false;
             // 
             // pictureBox7
             // 
@@ -478,7 +478,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button22);
             this.Controls.Add(this.button21);
@@ -504,7 +504,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.button1);
             this.Name = "game";
             this.Text = "game";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -541,7 +541,7 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
