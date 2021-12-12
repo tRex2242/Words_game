@@ -21,7 +21,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             words = new string[] { "карнавал", "подарки", "костюм", 
-                "дед мороз"};
+                "дед мороз", "снегурочка", "снег", "санки", "снежки","перчатки" };
             lives_image = new PictureBox[] { pictureBox1, pictureBox2, pictureBox3,
                 pictureBox, pictureBox5, pictureBox6 };
             current_word = " ";
@@ -284,5 +284,31 @@ namespace WindowsFormsApp2
             button_symbol_click(textBox1, 'я', button31, start228);
         }
 
+        private void start228_Click(object sender, EventArgs e)
+        {
+            start_game(textBox1, lives_image);
+
+            Button[] buttons = new Button[] { button1,button2,button3,button4,button5,
+                button6,button7,button8,button9,button10,button11,button12,button13,
+                button14,button15,button16,button17, button18, button19, button20, 
+                button21, button22, button23,button24,button25,button26,button27,button28,
+                button29,button30,button31};
+
+
+            for(int i = 0; i < buttons.Length; i++)
+            {
+                buttons[i].Enabled = true;
+            }
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            button_symbol_click(textBox1, 'м', button12, start228);
+        }
     }
 }

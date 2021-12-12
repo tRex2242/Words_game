@@ -199,6 +199,7 @@ namespace WindowsFormsApp2
             this.button12.TabIndex = 11;
             this.button12.Text = "М";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click_1);
             // 
             // button13
             // 
@@ -439,6 +440,7 @@ namespace WindowsFormsApp2
             this.button35.TabIndex = 42;
             this.button35.Text = "Закрыть";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // pictureBox6
             // 
